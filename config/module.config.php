@@ -19,7 +19,7 @@ return array(
     
     'service_manager' => array(
         'invokables' => array(
-            'files.toolbar' => 'FilesToolbar\Collector\FlesCollector',
+            'files.toolbar' => 'FilesToolbar\Collector\FilesCollector',
         ),
     ),
     
