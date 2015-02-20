@@ -29,7 +29,11 @@
         </span>
         <span class="zdt-toolbar-info">
             <span class="zdt-detail-pre">
-                <?php Zend\Debug\Debug::dump($collector->getFilesData()); ?>
+                <ol>
+                <?php foreach($collector->getFilesData() as $filename): ?>
+                    <li><?php echo $filename;?></li>
+                <?php endforeach;?>
+                </ol>
             </span>
         </span>
     </div>
