@@ -1,5 +1,5 @@
 {
-    "name": "kabushi/FilesToolbar",
+    "name": "kabushi/files-toolbar",
     "type": "library",
     "description": "ZF2 Files Toolbar for ZendDeveloperTools ",
     "keywords": ["files","zf2"],
